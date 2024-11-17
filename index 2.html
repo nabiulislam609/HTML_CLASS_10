@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        h1 {
+            text-align: center;
+            margin: 0;
+        }
+        table {
+            margin-left: auto;
+            margin-right: auto;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid gray;
+            padding: 4px;
+            text-align: center;
+        }
+        table th {
+            background-color: #b0e2bf;           
+        }
+        table, tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+        table tr:nth-child(even) {
+            background-color: #ddd8d8;
+        }
+    </style>
+</head>
+<body>
+    <h1>Product List</h1>
+    <hr>
+    <table>
+        <tr>
+            <th><i class="fa-solid fa-list-check"></i> Product</th>
+            <th><i class="fa-solid fa-bangladeshi-taka-sign"></i></i> Price</th>
+            <th><i class="fa-solid fa-gear"></i> Status</th>
+        </tr>
+        <tr>
+            <td>Desktop</td>
+            <td>60000</td>
+            <td><i class="fas fa-check-circle" style="color: green;"></i> In Stock</td>
+        </tr>
+        <tr>
+            <td>Laptop</td>
+            <td>102000</td>
+            <td><i class="fas fa-times-circle" style="color: red;"></i> Out of Stock</td>
+        </tr>
+        <tr>
+            <td>Tablet</td>
+            <td>30000</td>
+            <td><i class="fas fa-check-circle" style="color: green;"></i> In Stock</td>
+        </tr>
+        <tr>
+            <td>Headphone</td>
+            <td>2500</td>
+            <td><i class="fas fa-check-circle" style="color: green;"></i> In Stock</td>
+        </tr>
+    </table>
+</body>
+</html>
